@@ -29,11 +29,17 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
     grid-gap: 30px; 
+    overflow: hidden;
+}
+
+.overflow {
+    overflow: hidden;
 }
 
 .project__item {
     box-sizing: border-box;
     margin: 0px 10px;
+    overflow: hidden;
 }
 
 .projects__items-info {
