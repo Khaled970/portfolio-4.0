@@ -133,5 +133,40 @@ em {
     .projects__item-img {
         width: 100%;
     }
-}   
+}
+
+.spotify-show-text,
+.bhromaon-show-text,
+.monticello-show-text,
+.genesis-show-text,
+.fluffy-show-text,
+.banger-show-text {
+    display: none;
+    font-size: 14px;
+    font-family: $main-font;
+    color: $body-color;
+    line-height: 1.3;
+}
+
+.show-btn {
+    margin: 10px 0px;
+    padding: 10px;
+    width: auto;
+    background: $sidebar-bg;
+    color: $white;
+    border: 0;
+    box-shadow: 2px 2px 5px $black;
+    &:hover {
+        color: $white;
+        background-color: $sidebar-accent;
+    }
+    &:active {
+        background-color: $accent;
+        color: white; 
+    }
+    &:focus {
+        background-color: $accent;
+        color: white; 
+    }
+}
 

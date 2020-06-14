@@ -71,6 +71,7 @@ textarea {
     background: $sidebar-bg;
     color: $white;
     border: 0;
+    box-shadow: 2px 2px 5px $black;
     &:hover {
         color: $white;
         background-color: $sidebar-accent;
