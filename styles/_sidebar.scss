@@ -5,7 +5,7 @@
     background-color: $sidebar-bg;
     position: fixed;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
 
     .profile {
         max-width: 200px;
