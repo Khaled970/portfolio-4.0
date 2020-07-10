@@ -81,11 +81,19 @@
 }
 
 .social-icons {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        max-width: 200px;
+        width: 100%;
+        margin-left: 20px;
+    }
 	li {
         display: inline-block;
         margin-top: 30px;
-        margin-left: 20px;
 	}
 	a {
 		font-size: 20px;
@@ -103,6 +111,14 @@
             color: $accent; 
         } 
 	}
+}
+
+@media screen and (max-width: 830px) {
+    .social-icons {
+        li {
+            margin-top: 10px;
+        }
+    }
 }
 
 @media screen and (max-width: 800px) {
