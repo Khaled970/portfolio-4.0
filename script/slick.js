@@ -1,6 +1,8 @@
 $(document).ready(function(){
-    $('.your-class').slick({
+    $('.slick-testimonial').slick({
         arrows: true, 
-        dots: true
+        dots: true, 
+        //adaptiveHeight: true, 
+        respondTo: 'slider'
     });
   });
