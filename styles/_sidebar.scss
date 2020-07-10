@@ -5,7 +5,7 @@
     background-color: $sidebar-bg;
     position: fixed;
     height: 100%;
-    overflow: hidden;
+    overflow-y: auto;
 
     .profile {
         max-width: 200px;
@@ -90,6 +90,7 @@
         max-width: 200px;
         width: 100%;
         margin-left: 20px;
+        margin-bottom: 30px;
     }
 	li {
         display: inline-block;
